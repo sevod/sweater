@@ -8,7 +8,28 @@
     <title>Document</title>
 </head>
 <body>
-    Main page.
-    <a href="http://localhost:8080/greeting?name=Sevod&name2=Sevod2"> http://localhost:8080/greeting?name=Sevod&name2=Sevod2 </a>
+<div>
+    <form action="" method="post">
+        <input type="text" name="text" placeholder="Введите сообщение"/>
+        <input type="text" name="tag" placeholder="Тег"/>
+        <button type="submit">Добавить</button>
+    </form>
+</div>
+<div>
+    <form action="filter" method="post">
+        <input type="text" name="filter"/>
+        <button type="submit">Найти</button>
+    </form>
+</div>
+<div>Список сообщений</div>
+{{#messages}}
+    <div>
+        <b>{{id}}</b>
+        <b>{{text}}</b>
+        <i>{{tag}}</i>
+    </div>
+{{/messages}}
+<a href="http://localhost:8080/greeting?name=Sevod&name2=Sevod2">
+    http://localhost:8080/greeting?name=Sevod&name2=Sevod2 </a>
 </body>
 </html>
