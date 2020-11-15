@@ -70,8 +70,17 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.22</version>
         </dependency>
+        <!--        comit 2-->
 
-<!--        comit 2-->
+<!--        commit 3-->
+<!--Spring security-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+<!--        commit 3-->
+
+
 
 
     </dependencies>

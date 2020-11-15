@@ -1,7 +1,9 @@
 Commit 1
+------------------
 https://www.youtube.com/watch?v=jH17YkBTpI4&list=PLU2ftbIeotGoGSEUf54LQH-DgiQPF2XRO
 
 Commit 2 JPA (Hibernate)
+---------------------------
 https://www.youtube.com/watch?v=nyFLX3q3poY&list=PLU2ftbIeotGoGSEUf54LQH-DgiQPF2XRO&index=2
 https://spring.io/guides/gs/accessing-data-mysql/
 Руководство по мусташ http://mustache.github.io/mustache.5.html
@@ -12,3 +14,11 @@ https://spring.io/guides/gs/accessing-data-mysql/
 В настройках подключения БД указываем `spring.jpa.generate-dll=true` Это означает что структуру БД будет создавать сам спринг.
 
 В репозитории (MessageRepo.java) создаем метод List<Message> findByTag(String tag); SpringJPA сам преобразует его в правильный запрос. Все подробности выше по ссылке.
+
+
+Commit 3 Spring Security
+-------------------------
+https://www.youtube.com/watch?v=WDlifgLS8iQ&list=PLU2ftbIeotGoGSEUf54LQH-DgiQPF2XRO&index=3
+https://spring.io/guides/gs/securing-web/
+
+13.00

@@ -10,6 +10,7 @@
 <body>
 <div>
     <form action="" method="post">
+        <input type="hidden" name="_csrf" value="{{_csrf.token}}">
         <input type="text" name="text" placeholder="Введите сообщение"/>
         <input type="text" name="tag" placeholder="Тег"/>
         <button type="submit">Добавить</button>
@@ -17,6 +18,7 @@
 </div>
 <div>
     <form action="filter" method="post">
+        <input type="hidden" name="_csrf" value="{{_csrf.token}}">
         <input type="text" name="filter"/>
         <button type="submit">Найти</button>
     </form>
