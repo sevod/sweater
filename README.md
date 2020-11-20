@@ -21,4 +21,11 @@ Commit 3 Spring Security
 https://www.youtube.com/watch?v=WDlifgLS8iQ&list=PLU2ftbIeotGoGSEUf54LQH-DgiQPF2XRO&index=3
 https://spring.io/guides/gs/securing-web/
 
-13.00
+Commit 4 Spring JPA
+-----------------------------
+https://www.youtube.com/watch?v=PpoOoR55Ypw&list=PLU2ftbIeotGoGSEUf54LQH-DgiQPF2XRO&index=4
+
+Добавляем в меседж автора и меняем класс User.
+
+В класс User имплиментируем интерфейс UserDetails. В Role для совместимости имплементируем GrantedAuthority.
+
